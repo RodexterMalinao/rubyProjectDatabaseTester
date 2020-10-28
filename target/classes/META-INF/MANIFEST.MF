@@ -3,7 +3,7 @@ Built-By: 81255234
 Build-Jdk: 14.0.2
 Implementation-Title: spring-boot-jpa-oracle-example
 Implementation-Version: 1.0
-Implementation-Vendor-Id: com.mkyong
+Implementation-Vendor-Id: com.pccw
 Implementation-Vendor: Pivotal Software, Inc.
 Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-jp
  a-oracle-example/
