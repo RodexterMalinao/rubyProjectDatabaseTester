@@ -1,11 +1,6 @@
 Manifest-Version: 1.0
-Built-By: 81255234
-Build-Jdk: 14.0.2
+Build-Jdk-Spec: 14
 Implementation-Title: oracle-jdbc-connection-tester
 Implementation-Version: 1.0
-Implementation-Vendor-Id: com.pccw
-Implementation-Vendor: Pivotal Software, Inc.
-Implementation-URL: http://projects.spring.io/spring-boot/oracle-jdbc-co
- nnection-tester/
 Created-By: Maven Integration for Eclipse
 
