@@ -42,8 +42,8 @@
 		<!-- Oracle JDBC driver -->
 		<dependency>
 			<groupId>com.oracle.database.jdbc</groupId>
-			<artifactId>ojdbc7</artifactId>
-			<version>12.1.0.2</version>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.4</version>
 		</dependency>
 
 		<!-- HikariCP connection pool -->
