@@ -43,7 +43,7 @@
 		<dependency>
 			<groupId>com.oracle.database.jdbc</groupId>
 			<artifactId>ojdbc6</artifactId>
-			<version>11.2.0.4</version>
+			<version>11.1.0.7.0</version>
 		</dependency>
 
 		<!-- HikariCP connection pool -->
@@ -59,10 +59,10 @@
 		<repository>
 			<id>com-oracle</id>
 			<name>ojdbc7</name>
-			<url>https://maven.ceon.pl/artifactory/repo/</url>
+			<url>https://maven.redpill-linpro.com/nexus/content/repositories/public/</url>
 		</repository>
 	</repositories>
-
+	
 	<build>
 		<plugins>
 			<!-- Package as an executable jar/war -->
