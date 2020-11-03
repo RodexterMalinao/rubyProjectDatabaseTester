@@ -1,6 +1,5 @@
 Manifest-Version: 1.0
-Build-Jdk-Spec: 14
-Implementation-Title: oracle-jdbc-connection-tester
-Implementation-Version: 1.0
+Built-By: 81255234
+Build-Jdk: 14.0.2
 Created-By: Maven Integration for Eclipse
 

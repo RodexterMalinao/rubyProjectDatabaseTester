@@ -32,7 +32,6 @@ public class Application implements CommandLineRunner {
 	}
 
 	@Transactional(readOnly = true)
-	@Override
 	public void run(String... args) throws Exception {
 
 

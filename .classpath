@@ -13,12 +13,12 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -30,12 +30,55 @@
 	</classpathentry>
 	<classpathentry kind="src" path="target/generated-sources/annotations">
 		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="ignore_optional_problems" value="true"/>
 			<attribute name="m2e-apt" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="src/main/resources/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/aspectjweaver-1.9.4.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/byte-buddy-1.9.13.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/classmate-1.4.0.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/hibernate-commons-annotations-5.0.4.Final.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/hibernate-core-5.3.10.Final.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/HikariCP-2.6.0.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jandex-2.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/javassist-3.23.2-GA.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/javax.annotation-api-1.3.2.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/javax.transaction-api-1.3.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jul-to-slf4j-1.7.26.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/log4j-api-2.11.2.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/log4j-to-slf4j-2.11.2.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/logback-classic-1.2.3.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/logback-core-1.2.3.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/ojdbc6-11.1.0.7.0.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/slf4j-api-1.7.26.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/snakeyaml-1.23.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-aop-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-aspects-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-beans-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-boot-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-boot-autoconfigure-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-boot-starter-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-boot-starter-aop-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-boot-starter-data-jpa-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-boot-starter-jdbc-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-boot-starter-logging-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-context-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-core-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-data-commons-2.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-data-jpa-2.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-expression-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-jcl-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-jdbc-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-orm-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/spring-tx-5.1.8.RELEASE.jar"/>
 	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
 		<attributes>
 			<attribute name="optional" value="true"/>
