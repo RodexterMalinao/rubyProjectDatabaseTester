@@ -56,11 +56,11 @@
 	</dependencies>
 	
 	<repositories>
-    		<repository>
-        		<id>hand-china-repo</id>
-        		<name>HandChinaRepo</name>
-        		<url>http://nexus.saas.hand-china.com/content/repositories/rdc/</url>
-    		</repository>
+		<repository>
+			<id>com-oracle</id>
+			<name>ojdbc7</name>
+			<url>https://maven.ceon.pl/artifactory/repo/</url>
+		</repository>
 	</repositories>
 
 	<build>
