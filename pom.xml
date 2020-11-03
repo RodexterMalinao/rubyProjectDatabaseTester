@@ -42,8 +42,8 @@
 		<!-- Oracle JDBC driver -->
 		<dependency>
 			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>11.1.0.7.0</version>
+			<artifactId>ojdbc7</artifactId>
+			<version>12.1.0.2</version>
 		</dependency>
 
 		<!-- HikariCP connection pool -->
@@ -55,11 +55,15 @@
 
 	</dependencies>
 
-	<repositories>
-		<repository>
-			<id>maven-group</id>
-			<url>https://nexus.urcicd.sitelb.bpu.pccw.com/repository/maven-central/</url>
-		</repository>
-	</repositories>
+	<build>
+		<plugins>
+			<!-- Package as an executable jar/war -->
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+
+		</plugins>
+	</build>
 
 </project>
