@@ -59,7 +59,7 @@
 		<repository>
 			<id>com-oracle</id>
 			<name>ojdbc7</name>
-			<url>http://maven.rocoinfo.com/nexus/content/groups/public/</url>
+			<url>http://211.241.199.217:8080/nexus/content/repositories/thirdparty</url>
 		</repository>
 	</repositories>
 	
