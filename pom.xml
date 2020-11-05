@@ -41,9 +41,9 @@
 
 		<!-- Oracle JDBC driver -->
 		<dependency>
-			<groupId>com.oracle.database.jdbc.debug</groupId>
-			<artifactId>ojdbc5_g</artifactId>
-			<version>11.2.0.4</version>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.1.0.7.0</version>
 		</dependency>
 
 		<!-- HikariCP connection pool -->
@@ -54,7 +54,15 @@
 		</dependency>
 
 	</dependencies>
-	
+
+	<repositories>
+		<repository>
+			<id>com-oracle</id>
+			<name>ojdbc6</name>
+			<url>http://maven.rocoinfo.com/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+
 	<build>
 		<plugins>
 			<!-- Package as an executable jar/war -->
