@@ -57,7 +57,7 @@
 
 	<repositories>
 		<repository>
-			<id>com-oracle</id>
+			<id>com.oracle</id>
 			<name>ojdbc6</name>
 			<url>https://maven.redpill-linpro.com/nexus/content/groups/public/</url>
 		</repository>
