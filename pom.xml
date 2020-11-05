@@ -55,14 +55,6 @@
 
 	</dependencies>
 
-	<repositories>
-		<repository>
-			<id>com.oracle</id>
-			<name>ojdbc6</name>
-			<url>http://nexus.isoftstones.com:8081/nexus/content/repositories/public/</url>
-		</repository>
-	</repositories>
-
 	<build>
 		<plugins>
 			<!-- Package as an executable jar/war -->
