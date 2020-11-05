@@ -94,7 +94,7 @@ under the License.
       <protocol>http</protocol>
       <host>app-proxy.pccw.com</host>
       <port>8080</port>
-      <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+      <nonProxyHosts>local.net|some.host.com|https://maven.yonyouccs.com/nexus/content/repositories/public/</nonProxyHosts>
     </proxy>
     <proxy>
       <id>optional2</id>
@@ -102,7 +102,7 @@ under the License.
       <protocol>https</protocol>
       <host>app-proxy.pccw.com</host>
       <port>8080</port>
-      <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+      <nonProxyHosts>local.net|some.host.com|https://maven.yonyouccs.com/nexus/content/repositories/public/</nonProxyHosts>
     </proxy>
   </proxies>
 
