@@ -96,9 +96,7 @@ under the License.
       <port>8080</port>
       <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
     </proxy>
-  </proxies>
-  
-   <proxies>
+
     <proxy>
       <id>optional</id>
       <active>true</active>
