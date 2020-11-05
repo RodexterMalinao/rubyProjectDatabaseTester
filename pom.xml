@@ -59,7 +59,7 @@
 		<repository>
 			<id>com.oracle</id>
 			<name>ojdbc6</name>
-			<url>https://maven.redpill-linpro.com/nexus/content/groups/public/</url>
+			<url>http://nexus.isoftstones.com:8081/nexus/content/repositories/public/</url>
 		</repository>
 	</repositories>
 
