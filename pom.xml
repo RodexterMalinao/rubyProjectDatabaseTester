@@ -54,6 +54,14 @@
 		</dependency>
 
 	</dependencies>
+	
+	<repositories>
+		<repository>
+			<id>public</id>
+			<url>https://maven.yonyouccs.com/nexus/content/repositories/public/</url>
+		</repository>
+	</repositories>
+
 
 	<build>
 		<plugins>
