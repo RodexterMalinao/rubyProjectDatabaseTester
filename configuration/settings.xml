@@ -92,7 +92,7 @@ under the License.
       <id>optional</id>
       <active>true</active>
       <protocol>http</protocol>
-      <host>http://app-proxy.pccw.com</host>
+      <host>app-proxy.pccw.com</host>
       <port>8080</port>
       <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
     </proxy>
@@ -100,7 +100,7 @@ under the License.
       <id>optional2</id>
       <active>true</active>
       <protocol>https</protocol>
-      <host>http://app-proxy.pccw.com</host>
+      <host>app-proxy.pccw.com</host>
       <port>8080</port>
       <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
     </proxy>
