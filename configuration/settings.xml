@@ -5,7 +5,7 @@
       <!--This sends everything else to /public -->
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>https://maven.redpill-linpro.com/nexus/content/groups/public/</url>
+      <url>https://maven.yonyouccs.com/nexus/content/repositories/public/</url>
     </mirror>
   </mirrors>
   <profiles>
@@ -50,7 +50,7 @@
         <protocol>http</protocol>
         <host>app-proxy.pccw.com</host>
         <port>8080</port>
-        <nonProxyHosts>127.0.0.1|nexus.urcicd.sitelb.bpu.pccw.com|https://nexus.urcicd.sitelb.bpu.pccw.com/repository/maven-central/|https://maven.redpill-linpro.com/nexus/content/groups/public/</nonProxyHosts>
+        <nonProxyHosts>127.0.0.1|nexus.urcicd.sitelb.bpu.pccw.com|https://nexus.urcicd.sitelb.bpu.pccw.com/repository/maven-central/|https://maven.yonyouccs.com/nexus/content/repositories/public/</nonProxyHosts>
      </proxy>
      <proxy>
         <id>https-pccw-proxy</id>
@@ -58,7 +58,7 @@
         <protocol>https</protocol>
         <host>app-proxy.pccw.com</host>
         <port>8080</port>
-        <nonProxyHosts>127.0.0.1|nexus.urcicd.sitelb.bpu.pccw.com|https://nexus.urcicd.sitelb.bpu.pccw.com/repository/maven-central/|https://maven.redpill-linpro.com/nexus/content/groups/public/</nonProxyHosts>
+        <nonProxyHosts>127.0.0.1|nexus.urcicd.sitelb.bpu.pccw.com|https://nexus.urcicd.sitelb.bpu.pccw.com/repository/maven-central/|https://maven.yonyouccs.com/nexus/content/repositories/public/</nonProxyHosts>
      </proxy>
   </proxies>
 
