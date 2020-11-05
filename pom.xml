@@ -59,7 +59,7 @@
 		<repository>
 			<id>com-oracle</id>
 			<name>ojdbc6</name>
-			<url>http://maven.rocoinfo.com/nexus/content/groups/public/</url>
+			<url>https://maven.redpill-linpro.com/nexus/content/groups/public/</url>
 		</repository>
 	</repositories>
 
