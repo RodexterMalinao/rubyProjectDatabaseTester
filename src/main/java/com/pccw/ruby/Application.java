@@ -50,17 +50,17 @@ public class Application implements CommandLineRunner {
 			// First SQL SELECT Query
 			String query1 = "SELECT * FROM recom.temp20201028";
 			// Second SQL SELECT Query
-			String query2 = "INSERT INTO recom.temp202018(customer_id) VALUES (2)";
+			String query2 = "INSERT INTO recom.temp20201028(customer_id) VALUES (2)";
 			// Third SQL SELECT Query
-			String query3 = "SELECT * FROM recom.temp202018"; // 2 records, 1 and 2";
+			String query3 = "SELECT * FROM recom.temp20201028"; // 2 records, 1 and 2";
 			// Fourth SQL SELECT Query
-			String query4 = "UPDATE recom.temp202018 set customer_id = 3 WHERE customer_id = 2";
+			String query4 = "UPDATE recom.temp20201028 set customer_id = 3 WHERE customer_id = 2";
 			// Fifth SQL SELECT Query
-			String query5 = "SELECT * FROM recom.temp202018"; // 2 records, 1 and 3";
+			String query5 = "SELECT * FROM recom.temp20201028"; // 2 records, 1 and 3";
 			// Sixth SQL SELECT Query
-			String query6 = "DELETE FROM recom.temp202018 WHERE customer_id = 3";
+			String query6 = "DELETE FROM recom.temp20201028 WHERE customer_id = 3";
 			// Seventh SQL SELECT Query
-			String query7 = "SELECT * FROM recom.temp202018"; // 1 record, 1";
+			String query7 = "SELECT * FROM recom.temp20201028"; // 1 record, 1";
 
 			// Executing first SELECT query
 			ResultSet rs = stmt.executeQuery(query1);
