@@ -54,7 +54,7 @@ public class Application implements CommandLineRunner {
 			// First SQL SELECT Query
 			String query1 = "SELECT * FROM "+table;
 			// Second SQL SELECT Query
-			String query2 = "INSERT INTO "+table+"(CUSTOMER_ID,CUST_NUM) VALUES ('2','2')";
+			String query2 = "INSERT INTO "+table+"(CUSTOMER_ID) VALUES (2)";
 			// Third SQL SELECT Query
 			String query3 = "SELECT * FROM "+table; // 2 records, 1 and 2";
 			// Fourth SQL SELECT Query
@@ -80,7 +80,7 @@ public class Application implements CommandLineRunner {
 			// Executing second SELECT query
 			int rowsInserted = stmt.executeUpdate(query2);
 			if (rowsInserted > 0) {
-			    System.out.println("A new user was inserted successfully!");
+			    System.out.println("A new customer id was inserted successfully!");
 			}
 			
 			// Executing third SELECT query
