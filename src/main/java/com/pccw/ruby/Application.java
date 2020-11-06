@@ -50,15 +50,15 @@ public class Application implements CommandLineRunner {
 			// First SQL SELECT Query
 			String query1 = "SELECT * FROM recom.temp20201028";
 			// Second SQL SELECT Query
-			String query2 = "INSERT INTO recom.temp20201028(customer_id) VALUES (2)";
+			String query2 = "INSERT INTO recom.temp20201028(CUSTOMER_ID) VALUES (2)";
 			// Third SQL SELECT Query
 			String query3 = "SELECT * FROM recom.temp20201028"; // 2 records, 1 and 2";
 			// Fourth SQL SELECT Query
-			String query4 = "UPDATE recom.temp20201028 set customer_id = 3 WHERE customer_id = 2";
+			String query4 = "UPDATE recom.temp20201028 set CUSTOMER_ID = 3 WHERE CUSTOMER_ID = 2";
 			// Fifth SQL SELECT Query
 			String query5 = "SELECT * FROM recom.temp20201028"; // 2 records, 1 and 3";
 			// Sixth SQL SELECT Query
-			String query6 = "DELETE FROM recom.temp20201028 WHERE customer_id = 3";
+			String query6 = "DELETE FROM recom.temp20201028 WHERE CUSTOMER_ID = 3";
 			// Seventh SQL SELECT Query
 			String query7 = "SELECT * FROM recom.temp20201028"; // 1 record, 1";
 
@@ -80,7 +80,7 @@ public class Application implements CommandLineRunner {
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs2.next()) {
-				System.out.println(rs.getString("CUSTOMER_ID") + "\t");
+				System.out.println(rs2.getString("CUSTOMER_ID") + "\t");
 			}
 			
 			// Executing third SELECT query
@@ -90,7 +90,7 @@ public class Application implements CommandLineRunner {
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs3.next()) {
-				System.out.println(rs.getString("CUSTOMER_ID") + "\t");
+				System.out.println(rs3.getString("CUSTOMER_ID") + "\t");
 			}
 			
 			// Executing fourth query
@@ -107,7 +107,7 @@ public class Application implements CommandLineRunner {
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs5.next()) {
-				System.out.println(rs.getString("CUSTOMER_ID") + "\t");
+				System.out.println(rs5.getString("CUSTOMER_ID") + "\t");
 			}
 			
 			// Executing sixth query
@@ -124,7 +124,7 @@ public class Application implements CommandLineRunner {
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs7.next()) {
-				System.out.println(rs.getString("CUSTOMER_ID") + "\t\n\n\nEND\n\n");
+				System.out.println(rs7.getString("CUSTOMER_ID") + "\t\n\n\nEND\n\n");
 			}
 			
 		}
