@@ -54,11 +54,11 @@ public class Application implements CommandLineRunner {
 			ResultSet rs = stmt.executeQuery(query1);
 
 			System.out.println("Result of executing query1");
-			System.out.println("Customer_ID");
+			System.out.println("CUSTOMER_ID");
 
 			// looping through the number of row/rows retrieved after executing query2
 			while (rs.next()) {
-				System.out.print(rs.getString("Customer_ID") + "\t");
+				System.out.print(rs.getString("CUSTOMER_ID") + "\t");
 			}
 		}
 
