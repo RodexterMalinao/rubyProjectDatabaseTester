@@ -70,7 +70,7 @@ public class Application implements CommandLineRunner {
 
 			// looping through the number of row/rows retrieved after executing query1
 			while (rs.next()) {
-				System.out.print(rs.getString("CUSTOMER_ID") + "\t");
+				System.out.println(rs.getString("CUSTOMER_ID") + "\t");
 			}
 			
 			// Executing second SELECT query
@@ -80,7 +80,7 @@ public class Application implements CommandLineRunner {
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs2.next()) {
-				System.out.print(rs.getString("CUSTOMER_ID") + "\t");
+				System.out.println(rs.getString("CUSTOMER_ID") + "\t");
 			}
 			
 			// Executing third SELECT query
@@ -90,7 +90,7 @@ public class Application implements CommandLineRunner {
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs3.next()) {
-				System.out.print(rs.getString("CUSTOMER_ID") + "\t");
+				System.out.println(rs.getString("CUSTOMER_ID") + "\t");
 			}
 			
 			// Executing fourth query
@@ -107,7 +107,7 @@ public class Application implements CommandLineRunner {
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs5.next()) {
-				System.out.print(rs.getString("CUSTOMER_ID") + "\t");
+				System.out.println(rs.getString("CUSTOMER_ID") + "\t");
 			}
 			
 			// Executing sixth query
@@ -124,7 +124,7 @@ public class Application implements CommandLineRunner {
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs7.next()) {
-				System.out.print(rs.getString("CUSTOMER_ID") + "\t\n\n\nEND\n\n");
+				System.out.println(rs.getString("CUSTOMER_ID") + "\t\n\n\nEND\n\n");
 			}
 			
 		}
