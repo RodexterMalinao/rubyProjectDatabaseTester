@@ -76,7 +76,7 @@ public class Application implements CommandLineRunner {
 			// Executing second SELECT query
 			ResultSet rs2 = stmt.executeQuery(query2);
 			
-			System.out.println("Result of executing query2 - INSERT INTO recom.temp202018(customer_id) VALUES (2)");
+			System.out.println("Result of executing query2 - INSERT INTO recom.temp20201028(customer_id) VALUES (2)");
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs2.next()) {
@@ -86,7 +86,7 @@ public class Application implements CommandLineRunner {
 			// Executing third SELECT query
 			ResultSet rs3 = stmt.executeQuery(query3);
 			
-			System.out.println("Result of executing query3 - SELECT * FROM recom.temp202018 ");
+			System.out.println("Result of executing query3 - SELECT * FROM recom.temp20201028 ");
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs3.next()) {
@@ -95,7 +95,7 @@ public class Application implements CommandLineRunner {
 			
 			// Executing fourth query
 			int rowsUpdated = stmt.executeUpdate(query4);
-			System.out.println("Result of executing query4 - UPDATE recom.temp202018 set customer_id = 3 WHERE customer_id = 2");
+			System.out.println("Result of executing query4 - UPDATE recom.temp20201028 set customer_id = 3 WHERE customer_id = 2");
 			if (rowsUpdated > 0) {
 			    System.out.println("An existing CUSTOMER_ID was updated successfully!");
 			}
@@ -103,7 +103,7 @@ public class Application implements CommandLineRunner {
 			// Executing fifth query
 			ResultSet rs5 = stmt.executeQuery(query5);
 			
-			System.out.println("Result of executing query5 - SELECT * FROM recom.temp202018");
+			System.out.println("Result of executing query5 - SELECT * FROM recom.temp20201028");
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs5.next()) {
@@ -112,7 +112,7 @@ public class Application implements CommandLineRunner {
 			
 			// Executing sixth query
 			int rowsDeleted = stmt.executeUpdate(query6);
-			System.out.println("Result of executing query6 - DELETE FROM recom.temp202018 WHERE customer_id = 3");
+			System.out.println("Result of executing query6 - DELETE FROM recom.temp20201028 WHERE customer_id = 3");
 			if (rowsDeleted > 0) {
 			    System.out.println("A user was deleted successfully!");
 			}
@@ -120,7 +120,7 @@ public class Application implements CommandLineRunner {
 			// Executing seventh query
 			ResultSet rs7 = stmt.executeQuery(query7);
 			
-			System.out.println("Result of executing query7 - SELECT * FROM recom.temp202018");
+			System.out.println("Result of executing query7 - SELECT * FROM recom.temp20201028");
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs7.next()) {
