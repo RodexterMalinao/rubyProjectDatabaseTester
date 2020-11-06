@@ -76,7 +76,7 @@ public class Application implements CommandLineRunner {
 			// Executing second SELECT query
 			ResultSet rs2 = stmt.executeQuery(query2);
 			
-			System.out.println("Result of executing query2 - INTO INTO recom.temp202018(customer_id) VALUES (2)");
+			System.out.println("Result of executing query2 - INSERT INTO recom.temp202018(customer_id) VALUES (2)");
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs2.next()) {
