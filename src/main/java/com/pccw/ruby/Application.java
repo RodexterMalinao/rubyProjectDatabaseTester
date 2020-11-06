@@ -50,7 +50,7 @@ public class Application implements CommandLineRunner {
 			// First SQL SELECT Query
 			String query1 = "SELECT * FROM recom.temp20201028";
 			// Second SQL SELECT Query
-			String query2 = "INTO INTO recom.temp202018(customer_id) VALUES (2)";
+			String query2 = "INSERT INTO recom.temp202018(customer_id) VALUES (2)";
 			// Third SQL SELECT Query
 			String query3 = "SELECT * FROM recom.temp202018"; // 2 records, 1 and 2";
 			// Fourth SQL SELECT Query
@@ -107,7 +107,7 @@ public class Application implements CommandLineRunner {
 			System.out.println("CUSTOMER_ID");
 			
 			while (rs5.next()) {
-				System.out.print(rs.getString("CSTOMER_ID") + "\t");
+				System.out.print(rs.getString("CUSTOMER_ID") + "\t");
 			}
 			
 			// Executing sixth query
