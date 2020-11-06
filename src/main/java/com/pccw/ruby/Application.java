@@ -2,7 +2,11 @@ package com.pccw.ruby;
 
 import static java.lang.System.exit;
 
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.text.SimpleDateFormat;
+import java.util.TimeZone;
 
 import javax.sql.DataSource;
 
@@ -34,12 +38,30 @@ public class Application implements CommandLineRunner {
 	@Transactional(readOnly = true)
 	@Override
 	public void run(String... args) throws Exception {
+		TimeZone timeZone = TimeZone.getTimeZone("Asia/Kolkata");
+		TimeZone.setDefault(timeZone);
+		Connection conn = dataSource.getConnection();
 
+		if (conn != null) {
+			System.out.println("Test connection successfully!");
 
-		if(dataSource.getConnection()!=null) {
-			System.out.println("Test connection successfully!");	
+			Statement stmt = conn.createStatement();
+
+			// First SQL SELECT Query
+			String query1 = "SELECT * FROM recom.temp20201028";
+
+			// Executing first SELECT query
+			ResultSet rs = stmt.executeQuery(query1);
+
+			System.out.println("Result of executing query1");
+			System.out.println("CustomerID");
+
+			// looping through the number of row/rows retrieved after executing query2
+			while (rs.next()) {
+				System.out.print(rs.getString("CustomerID") + "\t");
+			}
 		}
-		
+
 		exit(0);
 	}
 
